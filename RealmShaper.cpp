@@ -54,6 +54,7 @@ std::vector<RealmShaper *> RealmShaper::readFromFile(const std::string &filename
 {
     std::vector<RealmShaper *> players;
 
+    // ***************** COMPLETED ******************
     // TODO: Read RealmShapers from the file,
     // add them to vector
 
@@ -73,6 +74,7 @@ std::vector<RealmShaper *> RealmShaper::readFromFile(const std::string &filename
         players.push_back(player);
 
     }
+    // *******************************************
 
     // return the vector
     // Input format: playerName[tab]honourPoints
@@ -82,8 +84,8 @@ std::vector<RealmShaper *> RealmShaper::readFromFile(const std::string &filename
 
 bool RealmShaper::operator==(const RealmShaper &other) const
 {
-    // *******************************************
-    // TODO: Completed
+    // **************** COMPLETED ****************
+
     // TODO: Compare by name, return true if same
 
     if (name == other.getName()) return true;
